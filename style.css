@@ -1,0 +1,17 @@
+body, html {
+  background-color: rgb(245, 185, 245);
+}
+
+table, th, td {
+  border: 1px solid black;}
+
+tr:nth-child(even) {background-color: violet;}
+
+#table1 {
+  background-color: rgb(245, 180, 245);
+  color: black;
+}
+
+#Name {
+  color: black;
+}
