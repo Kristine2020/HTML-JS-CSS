@@ -1,10 +1,10 @@
 function calculateGrade() {
 
-  var participationGrade = parseFloat(document.getElementById("participationGrade").innerHTML)
-  var quizGrade = parseFloat(document.getElementById("quizGrade").innerHTML)
-  var homeworkGrade = parseFloat(document.getElementById("homeworkGrade").innerHTML)
-  var project1Grade = parseFloat(document.getElementById("project1Grade").innerHTML) 
-  var project2Grade = parseFloat(document.getElementById("project2Grade").innerHTML)
+  var participationGrade = parseFloat(document.getElementById("participationGrade").value)
+  var quizGrade = parseFloat(document.getElementById("quizGrade").value)
+  var homeworkGrade = parseFloat(document.getElementById("homeworkGrade").value)
+  var project1Grade = parseFloat(document.getElementById("project1Grade").value) 
+  var project2Grade = parseFloat(document.getElementById("project2Grade").value)
 
 
   var participationPercent = parseInt(document.getElementById("participationPercent").innerHTML)
